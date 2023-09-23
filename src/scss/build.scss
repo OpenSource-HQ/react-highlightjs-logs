@@ -1,0 +1,8 @@
+.rhljst *{
+  @tailwind components;
+  @tailwind utilities;
+}
+
+
+@import './common';
+@import './tokyonight'
