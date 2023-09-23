@@ -13,7 +13,7 @@ const shared = {
   // Treat all dependencies in package.json as externals to keep bundle size to a minimum
   external: Object.keys(peerDependencies),
   logLevel: 'info',
-  minify: false,
+  minify: true,
   sourcemap: false,
   plugins: [sassPlugin()],
 };
