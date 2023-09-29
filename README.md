@@ -24,13 +24,16 @@ import { HighlightJsLogs } from "react-highlightjs-logs"
 ### Importing Styles
 You can import the component as shown below.
 ```javascript
-import 'react-highlightjs-logs/dist/styles/index.css'
+import 'react-highlightjs-logs/dist/index.css'
 ```
 
 ### Importing Themes
-This package contains only one theme that's tokyo-night which can be imported as shown below. 
+This package provides default theme that's tokyo-night which can be overriden by importing the theme of your choice from highlight.js website. for that you have to add one attribute `removeDefaultTheme`
+
 ```javascript
-import 'react-highlightjs-logs/dist/themes/tokyo-night.css'
+<HighlightJsLogs
+    removeDefaultTheme
+/>
 ```
 
 You can also use any of the [highlight.js](https://github.com/highlightjs/highlight.js/tree/main/src/styles) themes. you can get themes from [highlight.js themes](https://github.com/highlightjs/highlight.js/tree/main/src/styles) or you visit the [highlight.js demo](https://highlightjs.org/static/demo) for more.
