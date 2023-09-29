@@ -5,6 +5,7 @@
 ## Demo
 
 [https://react-highlightjs-logs.netlify.app/](https://react-highlightjs-logs.netlify.app/)
+[code-sandbox](https://r3r5y4.csb.app)
 
 ## Usage
 
